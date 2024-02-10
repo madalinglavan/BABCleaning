@@ -21,12 +21,12 @@ header{
     text-align: center;
     margin-bottom: 20px;
 }
-.bara-navigator{
+
+.bara-navigator {
     position: relative;
-    display: flex;
     width: 70%;
-    border-radius:0 0 0 16px;
-}
+  }
+ 
 .logo-babcleaning{
     position: relative;
     display: flex;
@@ -65,14 +65,12 @@ nav ul{
     justify-content: center;
     background-color: black;
     box-shadow: 2px 7px 5px rgb(110, 110, 110);
-    border-radius: 18px 18px 0 0;
 }
 nav ul li{
     position: relative;
     display: flex;
     justify-content: space-between;
-    padding: 2px;
-    margin: 15px;
+    margin: 5px;
 }
 nav ul li a{
     position: relative;
@@ -197,28 +195,28 @@ nav ul li a p:hover{
 
 
 @media screen and (max-width: 768px) {
-    header{
-        position: relative;
-        display: flex;
-        flex-direction: column;
-    }
+
     .logo-babcleaning{
-        width: 200px;
-        margin-bottom: 30px;
+        width: 140px;
     }
     .logo-babcleaning a{
         font-size: 1.3rem;
         
     }
+
     .bara-navigator{
-        background-color: transparent;
-        width: 100%;
+        width: fit-content;
+    }
+    nav ul{
+        background-color: black;
     }
     nav ul li a{
         position: relative;
         display: flex;
         justify-content: space-between;
-        font-size: 2rem;
+        font-size: 1.6rem;
+        color: rgb(255, 255, 255);
+        margin: 3px;
     }
 
     nav ul li a p {
@@ -235,11 +233,12 @@ nav ul li a p:hover{
         padding: 3px;
         box-shadow: 4px 2px 4px black;
         position: absolute;
-        top:-40px; 
+        top:-30px; 
         text-decoration: solid;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     }
+    
 
     .curatenie-de-birouri,
     .curatenie-pe-santiere{
