@@ -3,14 +3,13 @@
     padding: 0;
 }
 body{
-    width: 95%;
+    width: 97%;
     margin-left: 50%;
     transform: translate(-50%);
     height: fit-content;
     position: relative;
     display: flex;
     flex-direction: column;
-    background-color: #666;
 }
 header{
     width: 100%;
@@ -20,13 +19,16 @@ header{
     justify-items: center;
     align-items: center;
     text-align: center;
-    padding-left: 10px;
+    background-image: url(img/header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .bara-navigator{
     position: relative;
     display: flex;
-    width: 65%;
-    background-color: rgb(0, 0, 0);
+    width: 70%;
+    border-radius:0 0 0 16px;
 }
 .logo-babcleaning{
     position: relative;
@@ -36,9 +38,10 @@ header{
     width: 165px;
     height: 65px;
     margin-top: 10px;
-    background-color: black;
+    background-color: orangered;
     border-radius: 16px;
-    box-shadow: 2px 7px 5px red;
+    box-shadow: 2px 7px 5px rgb(110, 110, 110);
+    border-radius: 18px 0 18px 0;
 }
 .logo-babcleaning a{
     color: rgb(255, 255, 255);
@@ -46,10 +49,10 @@ header{
     list-style-type: none;
     font-size: 1.5rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-shadow: 2px 2px 2px  blue;
+    text-shadow: 2px 2px 2px  #000000;
 }
 .logo-babcleaning a:hover{
-    font-size: 1.2rem;
+    color: #00aeff;
 }
 
 nav{
@@ -61,14 +64,16 @@ nav ul{
     position: relative;
     display: flex;
     justify-content: center;
-
+    background-color: black;
+    box-shadow: 2px 7px 5px rgb(110, 110, 110);
+    border-radius: 18px 18px 0 0;
 }
 nav ul li{
     position: relative;
     display: flex;
     justify-content: space-between;
-    margin-left: 20px;
-    padding: 3px;
+    padding: 2px;
+    margin: 15px;
 }
 nav ul li a{
     position: relative;
@@ -77,9 +82,10 @@ nav ul li a{
     text-transform: uppercase;
     font-size: 1.5rem;
     color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 5px #4b4b4b;
 }
 nav ul li a:hover {
-    color: #ff0000;
+    color: #00aeff;
 }
 nav ul li a p{
     color: #ffffff;
@@ -89,10 +95,53 @@ nav ul li a p:hover{
     color: rgb(117, 0, 0);
 }
 
+.main{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center ;
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(212, 212, 212);
+    box-shadow: 4px 1px  16px black;
+}
+.introducere,
+.impresia-conteaza{
+    position: relative;
+    width: 100%;
+    height: 5vh;
+    background-color: tomato;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
 
+}
+.categorie-curatenie{
+    position: relative;
+    display: flex;
+    flex-direction: column;
 
-
-
+}
+.curatenie-de-birouri,
+.curatenie-pe-santiere{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    
+}
+.curatenie-generala,
+.intretinere-birouri,
+.curatenia-finala,
+.intretinere-santiere
+{
+    position: relative;
+    width: 50%;
+    height: 50vh;
+    
+}
 
 
 
@@ -121,7 +170,6 @@ nav ul li a p:hover{
     }
     .logo-babcleaning{
         width: 200px;
-        background-color: black;
         margin-bottom: 30px;
     }
     .logo-babcleaning a{
@@ -137,13 +185,25 @@ nav ul li a p:hover{
         display: flex;
         justify-content: space-between;
         font-size: 2rem;
-        color: black;
     }
 
     nav ul li a p {
         display: none;
     }
 
+    .curatenie-de-birouri,
+    .curatenie-pe-santiere{
+        display: flex;
+        flex-direction: column;
+    }
+    .curatenie-generala,
+    .intretinere-birouri,
+    .intretinere-santiere,
+    .curatenia-finala
+    {
+        width: 100%;
+    }
+    
 }
 
 
@@ -169,7 +229,6 @@ nav ul li a p:hover{
     }
     nav ul li a p{
         font-size: 1rem;
-        color: red;
      
     }
 }
