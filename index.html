@@ -19,7 +19,7 @@
                     <li><a href="#acasa"><i class="fa-solid fa-house"></i><p>acasa</p></a></li>
                     <li><a href="#despre-noi"><i class="fa-regular fa-image"></i><p>A&nbsp;propos</p></a></li>
                     <li><a href="#servicii"><i class="fa-solid fa-droplet"></i><p>servicii</p></a></li>
-                    <li><a href="#contact"><i class="fa-solid fa-envelope"></i><p>email</p></a></li>
+                    <li><a href="#contact"><i class="fa-solid fa-envelope"></i><p>e&nbsp;mail</p></a></li>
                     <li><a href="tel:+32487342679"><i class="fa-solid fa-phone"></i><p>suna</p></a></li>
                 </ul>
             </nav>
@@ -36,15 +36,145 @@
         </div>
         <div class="categorie-curatenie">
             <div class="curatenie-de-birouri">
-                <div class="curatenie-generala">curatenie generala</div>
-                <div class="intretinere-birouri">intretinere-birouri</div>
+                <div class="intretinere-birouri">
+                    <h2>Services de nettoyage périodique pour bureaux</h2>
+                    <p>Assurez-vous de maintenir un environnement de travail propre et organisé dans vos bureaux avec notre service de nettoyage périodique d'entretien. Grâce à un programme régulier d'interventions de nettoyage, nous garantissons que votre espace de travail est toujours accueillant pour vos employés et vos clients. Nos services incluent l'aspiration, le dépoussiérage, le nettoyage des surfaces et du mobilier, ainsi que la vidange des corbeilles à papier.</p>
+                    <button class="vezi-mai-mult">Voir plus</button>
+                </div>
+                <div class="informatii-suplimentare" style="display: none;">
+                    <p>aici adauga ceea ce e ascuns</p>
+                    <script>
+                        document.addEventListener('DOMContentLoaded', function() {
+                        var butonVeziMaiMult = document.querySelector('.vezi-mai-mult');
+                        var informatiiSuplimentare = document.querySelector('.informatii-suplimentare');
+
+                        butonVeziMaiMult.addEventListener('click', function() {
+                            if (informatiiSuplimentare.style.display === 'none' || informatiiSuplimentare.style.display === '') {
+                                informatiiSuplimentare.style.display = 'block';
+                                butonVeziMaiMult.textContent = 'Voir moins'; // Schimbă textul butonului
+                            } else {
+                                informatiiSuplimentare.style.display = 'none';
+                                butonVeziMaiMult.textContent = 'Voir plus'; // Schimbă textul butonului
+                            }
+                        });
+                    });
+
+
+                    </script>
+                </div>
+                <div class="curatenie-generala">
+                    <h2>Nettoyage en profondeur</h2>
+                    <p>Obtenez un niveau supérieur d'hygiène et de propreté avec notre service de nettoyage en profondeur. Cette approche se concentre sur l'élimination de toutes les traces de saleté et de germes, y compris ceux cachés ou difficiles d'accès. Nos services prioritaires incluent le lavage et la désinfection de toutes les surfaces, le nettoyage des vitres et des objets délicats, ainsi que l'hygiénisation et la désodorisation des espaces.</p>
+                    <button class="vezi-mai-mult">Voir plus</button>
+                    <div class="informatii-suplimentare" style="display: none;">
+                        he he he 
+                    </div>
+                    <script>
+                        document.addEventListener('DOMContentLoaded', function() {
+                        var butonVeziMaiMult = document.querySelector('.curatenie-generala .vezi-mai-mult');
+                        var informatiiSuplimentare = document.querySelector('.curatenie-generala .informatii-suplimentare');
+
+                        butonVeziMaiMult.addEventListener('click', function() {
+                            if (informatiiSuplimentare.style.display === 'none' || informatiiSuplimentare.style.display === '') {
+                                informatiiSuplimentare.style.display = 'block';
+                                butonVeziMaiMult.textContent = 'Voir moins'; // Schimbă textul butonului
+                            } else {
+                                informatiiSuplimentare.style.display = 'none';
+                                butonVeziMaiMult.textContent = 'Voir plus'; // Schimbă textul butonului
+                            }
+                        });
+                    });
+
+                    </script>
+                </div>
+                
             </div>
             <div class="curatenie-pe-santiere">
-                <div class="intretinere-santiere"> intretinere santiere</div>
-                <div class="curatenia-finala">curatenie finala</div>
+                <div class="intretinere-santiere">
+                    <h2>Entretien de chantiers de construction</h2>
+                    <p>Assurez-vous de maintenir un environnement sûr et propre sur vos chantiers de construction avec notre service d'entretien spécialisé. Notre équipe gère efficacement l'élimination des déchets de construction, ainsi que le nettoyage et l'hygiénisation des espaces communs, y compris les zones de repas et de repos pour les ouvriers.</p>
+                    <button class="vezi-mai-mult">Voir plus</button>
+                    <div class="informatii-suplimentare" style="display: none;">
+                        HI HI HI
+                    </div>
+                    <script>
+                        document.addEventListener('DOMContentLoaded', function() {
+                            var butonVeziMaiMult1 = document.querySelector('.intretinere-santiere .vezi-mai-mult');
+
+                            butonVeziMaiMult1.addEventListener('click', function() {
+                                var parinte1 = this.parentNode;
+                                var informatiiSuplimentare1 = parinte1.querySelector('.informatii-suplimentare');
+                                
+                                if (informatiiSuplimentare1.style.display === 'none' || informatiiSuplimentare1.style.display === '') {
+                                    informatiiSuplimentare1.style.display = 'block';
+                                    butonVeziMaiMult1.textContent = 'Voir moins'; // Schimbă textul butonului
+                                } else {
+                                    informatiiSuplimentare1.style.display = 'none';
+                                    butonVeziMaiMult1.textContent = 'Voir plus'; // Schimbă textul butonului
+                                }
+                            });
+                        });
+
+                    </script>
+                </div>
+                
+                <div class="curatenia-finala">
+                    <h2>Nettoyage final du chantier</h2>
+                    <p>Confiez-nous la dernière étape du nettoyage de votre projet de construction. Notre équipe se chargera de l'élimination de tous les résidus et déchets de construction, ainsi que de la préparation de l'espace pour la remise finale. Nos services comprennent le nettoyage et la désinfection des surfaces, le lavage des vitres et l'élimination de toute trace de travail non désirée.</p>
+                    <button class="vezi-mai-mult">Voir plus</button>
+                    <div class="informatii-suplimentare" style="display: none;">
+                       ala bala portocala
+                       <img src="img/header.jpg" alt="">
+                    </div>
+                    <script>
+                        document.addEventListener('DOMContentLoaded', function() {
+                            var butonVeziMaiMult2 = document.querySelector('.curatenia-finala .vezi-mai-mult');
+
+                            butonVeziMaiMult2.addEventListener('click', function() {
+                                var parinte2 = this.parentNode;
+                                var informatiiSuplimentare2 = parinte2.querySelector('.informatii-suplimentare');
+                                
+                                if (informatiiSuplimentare2.style.display === 'none' || informatiiSuplimentare2.style.display === '') {
+                                    informatiiSuplimentare2.style.display = 'block';
+                                    butonVeziMaiMult2.textContent = 'Voir moins'; // Schimbă textul butonului
+                                } else {
+                                    informatiiSuplimentare2.style.display = 'none';
+                                    butonVeziMaiMult2.textContent = 'Voir plus'; // Schimbă textul butonului
+                                }
+                            });
+                        });
+
+                    </script>
+                </div>
+                
             </div>
         </div>
-        <div class="mesaj-incheiere">mesaj de final</div>
+        
+        <script>
+         document.addEventListener('DOMContentLoaded', function() {
+    var butoaneCitesteMaiMult = document.querySelectorAll('.citeste-mai-mult');
+
+    butoaneCitesteMaiMult.forEach(function(buton) {
+        buton.addEventListener('click', function(event) {
+            event.preventDefault(); // Previne comportamentul implicit de navigare al linkului
+            var parinte = this.parentNode;
+            var textAscuns = parinte.querySelector('.text-ascuns');
+            
+            if (textAscuns.style.display === 'none' || textAscuns.style.display === '') {
+                textAscuns.style.display = 'block';
+                this.textContent = 'Ascunde';
+            } else {
+                textAscuns.style.display = 'none';
+                this.textContent = 'Citeste mai mult';
+            }
+        });
+    });
+});
+
+        </script>
+        <div class="mesaj-incheiere">
+            <p>  </p>
+        </div>
     </div>
    
 
@@ -55,4 +185,4 @@
 
 
 </body>
-</html>
+</html>  

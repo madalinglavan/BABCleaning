@@ -10,6 +10,8 @@ body{
     position: relative;
     display: flex;
     flex-direction: column;
+    background-color: rgb(151, 151, 151);
+    font-family: 'Times New Roman', Times, serif;
 }
 header{
     width: 100%;
@@ -19,7 +21,8 @@ header{
     justify-items: center;
     align-items: center;
     text-align: center;
-    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-bottom: 30px;
 }
 
 .bara-navigator {
@@ -35,9 +38,9 @@ header{
     width: 165px;
     height: 65px;
     margin-top: 10px;
-    background-color: orangered;
+    background-color: rgb(223, 101, 56);
     border-radius: 16px;
-    box-shadow: 2px 7px 5px rgb(15, 0, 0);
+    box-shadow: 2px 7px 5px rgb(110, 110, 110);
     border-radius: 15px 0 15px 0;
     
 }
@@ -45,7 +48,7 @@ header{
     color: rgb(255, 255, 255);
     text-decoration: none;
     list-style-type: none;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-shadow: 2px 2px 2px  #000000;
 }
@@ -63,7 +66,7 @@ nav ul{
     position: relative;
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-color: rgb(223, 101, 56);
     box-shadow: 2px 7px 5px rgb(110, 110, 110);
 }
 nav ul li{
@@ -128,7 +131,7 @@ nav ul li a p:hover{
     position: relative;
     width: 100%;
     height: 10vh;
-    background-color: tomato;
+    background-color: rgb(223, 101, 56);
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -138,30 +141,26 @@ nav ul li a p:hover{
 
 }
 .titlu{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 1rem;
-    color: black;
+    font-size: 1.2rem;
     text-shadow: 1px 1px 1px  #bebebe;
     margin: 5px;
 }
 .indicatii{
     color:#ffffff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-    font-size: .8rem;
+    font-size: .7rem;
 }
 .categorie-curatenie{
     position: relative;
     display: flex;
     flex-direction: column;
-
 }
 .curatenie-de-birouri,
 .curatenie-pe-santiere{
     position: relative;
     display: flex;
     width: 100%;
-    height: 50vh;
+    height: fit-content;
     
 }
 .curatenie-generala,
@@ -171,15 +170,100 @@ nav ul li a p:hover{
 {
     position: relative;
     width: 50%;
-    height: 50vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    text-align: start;
+
     
 }
 
+.curatenie-generala h2,
+.intretinere-birouri h2,
+.curatenia-finala h2,
+.intretinere-santiere h2{
+    color: black;
+    text-shadow: 2px 1px 7px  rgb(97, 2, 2);
+    text-transform: uppercase;
+    font-size: 1rem;
+    width:100%;
+    background-color: orangered;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
 
 
+.curatenie-generala p,
+.intretinere-birouri p,
+.curatenia-finala p,
+.intretinere-santiere p{
+    margin-top: 5px;
+    position: relative;
+    padding: 3px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: .7rem;
+}
 
 
+.categorie-curatenie {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
+.categorie-curatenie h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.categorie-curatenie p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.curatenie-de-birouri, .curatenie-pe-santiere {
+    margin-bottom: 40px;
+}
+
+.intretinere-birouri, .intretinere-santiere,
+.curatenie-generala, .curatenia-finala {
+    padding-top: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.vezi-mai-mult {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.informatii-suplimentare {
+    position: relative;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: none;
+    height: fit-content;
+}
+.informatii-suplimentare img{
+    width: 100%;
+
+}
 
 
 
@@ -207,14 +291,11 @@ nav ul li a p:hover{
     .bara-navigator{
         width: fit-content;
     }
-    nav ul{
-        background-color: black;
-    }
     nav ul li a{
         position: relative;
         display: flex;
         justify-content: space-between;
-        font-size: 1.6rem;
+        font-size: 2rem;
         color: rgb(255, 255, 255);
         margin: 3px;
     }
@@ -230,7 +311,7 @@ nav ul li a p:hover{
         color:#ffffff;
         background-color: #eb0000;
         font-size: .8rem;
-        padding: 3px;
+        padding: 2px;
         box-shadow: 4px 2px 4px black;
         position: absolute;
         top:-30px; 
