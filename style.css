@@ -333,8 +333,9 @@ nav ul li a p:hover{
     z-index: -1;
 }
 .publicitate img{
-    margin-top: 20px;
-    width: 100px;
+    position: absolute;
+    bottom: -40px;
+    width: 50px;
 }
 .publicitate p {
     width:auto ;
