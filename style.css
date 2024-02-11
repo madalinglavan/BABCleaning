@@ -144,10 +144,10 @@ nav ul li a p:hover{
 }
 .mesaj-intampintare img{
     position: fixed;
-    top:70px;
+    top:80px;
     left:5%;
     width:auto;
-    height: 150px;
+    height: 130px;
 }
 .mesaj-intampintare p {
     opacity: 0;
@@ -334,8 +334,8 @@ nav ul li a p:hover{
 }
 .publicitate img{
     position: absolute;
-    bottom: -40px;
-    width: 50px;
+    bottom: 0px;
+    width: 65px;
 }
 .publicitate p {
     width:auto ;
@@ -351,6 +351,7 @@ nav ul li a p:hover{
 .publicitate h1{
     color: rgb(0, 204, 255);
     background-color: #0000006c;
+    font-size: 1.3rem;
 }
 .serviciu {
     animation: fade-in 2s ease-in-out;
