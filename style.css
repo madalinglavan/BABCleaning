@@ -293,7 +293,6 @@ nav ul li a p:hover{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    
     background-image: url(img/header.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -303,10 +302,8 @@ nav ul li a p:hover{
 }
 
 .publicitate p {
-    width: 90%;
+    width: 100%;
     padding: 10px;
-    margin-left:50%;
-    transform: translate(-50%);
     font-size: 1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: start;  
@@ -433,6 +430,11 @@ nav ul li a p:hover{
     .curatenia-finala
     {
         width: 100%;
+    }
+    .publicitate p {
+        margin-left:50%;
+        transform: translate(-50%);
+
     }
     
 }
