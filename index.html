@@ -27,16 +27,35 @@
     </header>
     
     <div class="main" id="acasa">
-        <div class="introducere">
-            <div class="introducere">
-                <h1 class="titlu">Bonjour chez Bab Cleaning</h1>
-                <p class="indicatii">Explorez notre site pour découvrir nos services de qualité. Nous sommes là pour répondre à toutes vos questions.</p>
-            </div>
+        <div class="mesaj-intampintare">
+            <p>Bonjour chez Bab Cleaning!</p>
+            
+            <script>
+           document.addEventListener("DOMContentLoaded", function () {
+        const paragraf = document.querySelector('.mesaj-intampintare p');
+        const text = paragraf.textContent.trim();
+        paragraf.textContent = '';
+        for (let litera of text) {
+            const literaSpan = document.createElement('span');
+            literaSpan.textContent = litera;
+            paragraf.appendChild(literaSpan);
+        }
+    
+        let delay = 0.1;
+        paragraf.querySelectorAll('span').forEach(function (literaSpan) {
+            literaSpan.style.animationDelay = `${delay}s`;
+            delay += 0.1;
+        });
+        paragraf.style.opacity = '1';
+    });
+    
+            </script>
         </div>
+        
         <div class="publicitate">
-            <p class="serviciu">Servicii personalizate pentru fiecare necesitate: de la curățenia periodică a birourilor la curățenia profundă a spațiilor industriale.</p>
-            <p class="echipa">Echipă profesionistă și bine instruită, dedicată să ofere rezultate de înaltă calitate.</p>
-            <p class="echipamente">Utilizarea celor mai eficiente echipamente și produse, pentru un rezultat impecabil și respect pentru mediu.</p>
+            <p class="serviciu">Services personnalisés pour chaque besoin : de l'entretien régulier des bureaux au nettoyage approfondi des espaces industriels.</p>
+            <p class="echipa">Équipe professionnelle et bien formée, dévouée à fournir des résultats de haute qualité.</p>
+            <p class="echipamente">L'utilisation des équipements et produits les plus efficaces, pour un résultat impeccable et le respect de l'environnement.</p>
         </div>
         <div class="categorie-curatenie">
             <div class="curatenie-de-birouri">
@@ -82,8 +101,8 @@
             
                     butoaneCitesteMaiMult.forEach(function(buton) {
                         buton.addEventListener('click', function(event) {
-                            event.preventDefault(); // Previne comportamentul implicit de navigare al linkului
-                            var parinte = this.parentElement; // Parintele butonului este div-ul care contine textul ascuns
+                            event.preventDefault(); 
+                            var parinte = this.parentElement; 
                             var textAscuns = parinte.querySelector('.text-ascuns');
             
                             if (textAscuns.style.display === 'none' || textAscuns.style.display === '') {
