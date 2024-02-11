@@ -42,7 +42,6 @@ header{
     border-radius: 16px;
     box-shadow: 2px 7px 5px rgb(110, 110, 110);
     border-radius: 15px 0 15px 0;
-    
 }
 .logo-babcleaning a h1{
     font-size: 1.5rem;
@@ -324,8 +323,6 @@ nav ul li a p:hover{
     position: relative;
     width: 100%;
     height: 50vh;
-
-    
 }
 .publicitate video {
     position: absolute;
@@ -339,7 +336,7 @@ nav ul li a p:hover{
 .publicitate img{
     position: absolute;
     bottom: 0px;
-    width: 65px;
+    width: 465px;
     padding: 0;
 }
 .publicitate p {
