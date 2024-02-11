@@ -10,7 +10,7 @@ body{
     position: relative;
     display: flex;
     flex-direction: column;
-    background-color: rgb(151, 151, 151);
+
 }
 header{
     width: 100%;
@@ -37,18 +37,23 @@ header{
     width: 165px;
     height: 65px;
     margin-top: 10px;
+    padding: 3px;
     background-color: rgb(0, 204, 255);
     border-radius: 16px;
     box-shadow: 2px 7px 5px rgb(110, 110, 110);
     border-radius: 15px 0 15px 0;
     
 }
+.logo-babcleaning a h1{
+    font-size: 1.5rem;
+    color: rgb(228, 228, 228);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .logo-babcleaning a{
     color: rgb(255, 255, 255);
     text-decoration: none;
     list-style-type: none;
-    font-size: 1.5em;
-   
+    font-size: 1em;
     text-shadow: 2px 2px 2px  #000000;
 }
 .logo-babcleaning a:hover{
@@ -119,7 +124,7 @@ nav ul li a p:hover{
     text-align:center ;
     width: 100%;
     height: fit-content;
-    background-color: rgb(212, 212, 212);
+
     box-shadow: 4px 1px  16px black;
     margin-bottom: 20px;
 }
@@ -141,8 +146,8 @@ nav ul li a p:hover{
     position: fixed;
     top:70px;
     left:5%;
-    width: 55px;
-    height: 100px;
+    width:auto;
+    height: 150px;
 }
 .mesaj-intampintare p {
     opacity: 0;
@@ -309,22 +314,23 @@ nav ul li a p:hover{
     width: 100%;
     height: 100%;
     object-fit: cover; 
-    z-index: -1; 
+    z-index: -1;
 }
 
 .publicitate p {
-    width: 100%;
-    padding: 10px;
+    width:auto ;
     font-size: 1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: start;  
     color: #ebe4e4;
     text-shadow: 2px 2px 5px black;
     background-color: #00000054;
+    margin: 20px;
+    
 }
 .serviciu {
     animation: fade-in 2s ease-in-out;
-
+    z-index: 1000;
 }
 
 .echipa {
@@ -415,11 +421,11 @@ nav ul li a p:hover{
         background-color: #eb0000;
         font-size: .8rem;
         padding: 2px;
-        box-shadow: 4px 2px 4px black;
+        box-shadow: 4px 2px 3px rgb(90, 1, 1);
         position: absolute;
-        top:-30px; 
+        top:50px; 
         text-decoration: solid;
-        
+        font-family: fantasy;
 
     }
     .categorie-curatenie {
@@ -441,12 +447,9 @@ nav ul li a p:hover{
     .curatenia-finala
     {
         width: 100%;
-    }
-    .publicitate p {
-        margin-left:50%;
-        transform: translate(-50%);
 
     }
+
     
 }
 
