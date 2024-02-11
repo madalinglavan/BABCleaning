@@ -128,7 +128,7 @@ nav ul li a p:hover{
     flex-direction: column;
     position: relative;
     width: auto;
-    height: fit-content;
+    height: 100px;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -136,6 +136,13 @@ nav ul li a p:hover{
     align-content: center;
     margin-bottom: 5px;
     padding: 10px;
+}
+.mesaj-intampintare img{
+    position: fixed;
+    top:70px;
+    left:5%;
+    width: 55px;
+    height: 100px;
 }
 .mesaj-intampintare p {
     opacity: 0;
@@ -156,6 +163,7 @@ nav ul li a p:hover{
         opacity: 1;
     }
 }
+
 
 .introducere{
     display: flex;
@@ -289,16 +297,19 @@ nav ul li a p:hover{
 
 .publicitate{
     position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    background-image: url(img/header.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 20px;
+    width: 100%;
+    height: 50vh;
+
     
+}
+.publicitate video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: -1; 
 }
 
 .publicitate p {
