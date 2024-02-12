@@ -321,12 +321,15 @@ nav ul li a p:hover{
 .publicitate{
     position: relative;
     width: 100%;
-    height: 50vh;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.404);
 }
 .publicitate video {
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     width: 50%;
     height: 100%;
     object-fit: cover; 
@@ -335,24 +338,25 @@ nav ul li a p:hover{
 .publicitate img{
     position: absolute;
     bottom: 0px;
-    width: 465px;
+    right: 0;
+    width: 300px;
     padding: 0;
 }
 .publicitate p {
-    width:50% ;
-    float: right;
+    width:40% ;
     font-size: 1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;  
     color: #ebe4e4;
     text-shadow: 2px 2px 5px black;
-    background-color: #22030336;
+    background-color: #029aff85;
     margin: 20px;
+    position: relative;
     
 }
 .publicitate h1{
-    color: rgb(0, 204, 255);
-    background-color: #0000006c;
+    color: rgb(255, 255, 255);
+
     font-size: 1.3rem;
 }
 .serviciu {
@@ -484,6 +488,9 @@ nav ul li a p:hover{
     }
     .publicitate video{
         width: 100%;
+    }
+    .publicitate p{
+        font-size: .8rem;
     }
 
     
