@@ -10,7 +10,6 @@ body{
     position: relative;
     display: flex;
     flex-direction: column;
-    background-color:rgba(0, 204, 255, 0.24);
 }
 header{
     width: 100%;
@@ -340,7 +339,8 @@ nav ul li a p:hover{
     padding: 0;
 }
 .publicitate p {
-    width:auto ;
+    width:50% ;
+    float: right;
     font-size: 1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;  
@@ -479,8 +479,11 @@ nav ul li a p:hover{
     .publicitate img{
         position: absolute;
         bottom: 0px;
-        width: 190px;
+        width: 150px;
         padding: 0;
+    }
+    .publicitate video{
+        width: 100%;
     }
 
     
