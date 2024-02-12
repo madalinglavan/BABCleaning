@@ -10,7 +10,7 @@ body{
     position: relative;
     display: flex;
     flex-direction: column;
-    background-color:rgb(0, 204, 255);
+    background-color:rgba(0, 204, 255, 0.24);
 }
 header{
     width: 100%;
@@ -328,7 +328,7 @@ nav ul li a p:hover{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 50%;
     height: 100%;
     object-fit: cover; 
     z-index: -1;
@@ -479,7 +479,7 @@ nav ul li a p:hover{
     .publicitate img{
         position: absolute;
         bottom: 0px;
-        width: 200px;
+        width: 190px;
         padding: 0;
     }
 
