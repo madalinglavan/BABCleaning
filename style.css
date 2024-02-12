@@ -329,8 +329,8 @@ nav ul li a p:hover{
 .publicitate video {
     position: absolute;
     top: 0;
-    right: 0;
-    width: 50%;
+    right: 5%;
+    width: 90%;
     height: 100%;
     object-fit: cover; 
     z-index: -1;
@@ -344,14 +344,15 @@ nav ul li a p:hover{
     padding: 0;
 }
 .publicitate p {
-    width:40% ;
-    font-size: 1rem;
+    width:75% ;
+    left: 5%;
+    font-size: 1.3rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;  
     color: #ebe4e4;
     text-shadow: 2px 2px 5px black;
     background-color: #029aff85;
-    margin: 20px;
+    margin: 10px;
     position: relative;
     
 }
@@ -360,6 +361,8 @@ nav ul li a p:hover{
     background-color: #029aff85;
     font-size: 1.3rem;
     border-radius: 16px 16px 0 0;
+    width: 90%;
+    margin-left: 5%;
 }
 .serviciu {
     animation: fade-in 2s ease-in-out;
@@ -485,24 +488,27 @@ nav ul li a p:hover{
     .publicitate img{
         position: absolute;
         bottom: 0px;
-        width: 150px;
+        width: 250px;
         padding: 0;
     }
     .publicitate video{
         width: 100%;
+        top: 0;
+        left: 0;
+        
     }
     .publicitate p{
-        margin-top: 20px;
+       z-index: 1;
         display: flex;
         flex-direction: column;
         justify-content: center;
         justify-items: center;
         text-align: center;
-        width: 97%;
-
-        font-size: .7rem;
+        width: 90%;
+        font-size: 1rem;
         margin: 5px;
-
+        margin-top: 20px;
+        margin-left: 0;
     }
 
     
@@ -533,5 +539,21 @@ nav ul li a p:hover{
         font-size: .8rem;
      
     }
-    
+    .publicitate video{
+        width: 100%;
+        top: 0;
+        left: 0;
+        
+    }
+    .publicitate h1{
+        color: rgb(255, 255, 255);
+        background-color: #029aff85;
+        font-size: 1.3rem;
+        border-radius: 16px 16px 0 0;
+        width:100%;
+        margin: 0;
+    }
+    .publicitate p {
+        font-size: 1rem;
+    }
 }
