@@ -332,9 +332,9 @@ nav ul li a p:hover{
     right: 5%;
     width: 90%;
     height: 100%;
-    object-fit: cover; 
+    object-fit: fill; 
     z-index: -1;
-    border-radius: 16px;
+    border-radius: 16px 16px 0 0 ;
 }
 .publicitate img{
     position: absolute;
@@ -349,11 +349,11 @@ nav ul li a p:hover{
     font-size: 1.3rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;  
-    color: #ebe4e4;
+    color: #e4e4e4;
     text-shadow: 2px 2px 5px black;
-    background-color: #029aff85;
     margin: 10px;
     position: relative;
+    background-color: #00000018;
     
 }
 .publicitate h1{
@@ -487,7 +487,7 @@ nav ul li a p:hover{
     }
     .publicitate img{
         position: absolute;
-        bottom: 0px;
+        bottom:-60px;
         width: 250px;
         padding: 0;
     }
@@ -505,9 +505,14 @@ nav ul li a p:hover{
         justify-items: center;
         text-align: center;
         width: 90%;
-        font-size: 1rem;
+        font-size: .8rem;
         margin: 5px;
         margin-top: 20px;
+        margin-left: 0;
+
+    }
+    .publicitate h1{
+        width: 100%;
         margin-left: 0;
     }
 
