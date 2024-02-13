@@ -580,6 +580,16 @@ nav ul li a p:hover{
         width: 90%;
         margin-left: 5%;
     }
+    .curatenie-generala p,
+.intretinere-birouri p,
+.curatenia-finala p,
+.intretinere-santiere p{
+    margin-top: 35px;
+    position: relative;
+    padding: 3px;
+    font-size: 1rem;
+    width: 100%;
+}
 
     
 }
