@@ -432,6 +432,7 @@ nav ul li a p:hover{
 }
 
 .swiper-slide img {
+    top:0;
     width: 100%;
     height:35vh; 
     object-fit: cover; 
@@ -463,8 +464,6 @@ nav ul li a p:hover{
 
 .before-after-text {
     position: absolute;
-    top: 10px;
-    left: 10px;
     color: rgb(19, 8, 8);
     background-color: rgba(255, 255, 255, 0.5);
     padding: 5px;
