@@ -144,10 +144,11 @@ nav ul li a p:hover{
 }
 .mesaj-intampintare img{
     position: fixed;
-    top:80px;
-    left:5%;
+    top:100px;
+    left:0;
     width:auto;
     height: 130px;
+    opacity: 1;
 }
 .mesaj-intampintare p {
     opacity: 0;
@@ -353,7 +354,7 @@ nav ul li a p:hover{
     text-align: center;  
     color: #ffffff;
     text-shadow: 2px 2px 5px black;
-    margin-top: 20px;
+    margin-top: 35px;
     position: relative;
     background-color: #00000018;
     
@@ -601,7 +602,7 @@ nav ul li a p:hover{
         left: 5%;
         font-size: .7rem;
         padding: 0;
-        margin-top: 10px;
+        margin-top: 40px;
     }
     .publicitate h1{
         width: 90%;
@@ -671,7 +672,7 @@ nav ul li a p:hover{
         width: 80%;
         left: 10%;
         font-size: .8rem;
-        margin-top: 5px;
+        margin-top: 35px;
 
     }
     .publicitate h1{
