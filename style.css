@@ -323,16 +323,16 @@ nav ul li a p:hover{
 .publicitate{
     position: relative;
     width: 100%;
-    height: 35vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
-
+    margin-bottom: 50px;
 }
 .publicitate video {
     position: absolute;
     top: 0;
-    right: 5%;
-    width: 90%;
+    left: 20%;
+    width: 60%;
     height: 100%;
     object-fit: fill; 
     z-index: -1;
@@ -340,20 +340,20 @@ nav ul li a p:hover{
 }
 .publicitate img{
     position: absolute;
-    bottom: 0px;
-    right: 0;
+    bottom:0px;
+    right: 260px;
     width: 300px;
     padding: 0;
 }
 .publicitate p {
-    width:75% ;
-    left: 5%;
-    font-size: 1.3rem;
+    width:60% ;
+    left: 20%;
+    font-size: 1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;  
-    color: #e4e4e4;
+    color: #ffffff;
     text-shadow: 2px 2px 5px black;
-    margin: 10px;
+    margin-top: 20px;
     position: relative;
     background-color: #00000018;
     
@@ -363,8 +363,8 @@ nav ul li a p:hover{
     background-color: #029aff85;
     font-size: 1.3rem;
     border-radius: 16px 16px 0 0;
-    width: 90%;
-    margin-left: 5%;
+    width: 60%;
+    margin-left: 20%;
 }
 .serviciu {
     animation: fade-in 2s ease-in-out;
@@ -415,10 +415,59 @@ nav ul li a p:hover{
 
 
 
+.text-ascuns {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 50px;
+}
 
+.swiper-container {
+    width: 300px;
+    height: 400px;
+    margin: 20px auto;
+  }
+  
 
+  .swiper-slide {
+    text-align: center;
+  }
+  
+  .swiper-slide img {
+    min-width: 100%; 
+    max-height: 100%; 
+  }
+  
 
-
+  .swiper-button-prev, .swiper-button-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .swiper-button-prev {
+    left: 10px;
+  }
+  
+  .swiper-button-next {
+    right: 10px;
+  }
+  .swiper-slide .before-after-slide img {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+  }
+  
+  .swiper-slide-active .before-after-slide img {
+    opacity: 1;
+    visibility: visible;
+  }
+  
 
 
 
@@ -472,6 +521,9 @@ nav ul li a p:hover{
         justify-content: space-between;
         padding: 20px;
     }
+    .categorie-curatenie h2{
+        color: #333
+    }
 
     .curatenie-de-birouri,
     .curatenie-pe-santiere{
@@ -487,35 +539,37 @@ nav ul li a p:hover{
         width: 100%;
 
     }
+    .publicitate{
+        position: relative;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
     .publicitate img{
         position: absolute;
-        bottom:-60px;
-        width: 250px;
-        padding: 0;
+        bottom: 0px;
+        width: 200px;
+        right: 20px;
     }
     .publicitate video{
-        width: 100%;
+        width: 90%;
+        height:300px;
         top: 0;
-        left: 0;
+        left: 5%;
         
     }
     .publicitate p{
-       z-index: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        justify-items: center;
-        text-align: center;
         width: 90%;
-        font-size: .8rem;
-        margin: 5px;
-        margin-top: 20px;
-        margin-left: 0;
-
+        left: 5%;
+        font-size: .7rem;
+        padding: 0;
+        margin-top: 10px;
     }
     .publicitate h1{
-        width: 100%;
-        margin-left: 0;
+        width: 90%;
+        margin-left: 5%;
     }
 
     
@@ -546,21 +600,37 @@ nav ul li a p:hover{
         font-size: .8rem;
      
     }
-    .publicitate video{
+    .publicitate{
+        position: relative;
         width: 100%;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .publicitate img{
+        position: absolute;
+        bottom: 0;
+        width: 200px;
+        right: 20px;
+    }
+    .publicitate video{
+        width: 90%;
+        height:350px;
         top: 0;
-        left: 0;
+        left: 5%;
         
     }
+    .publicitate p{
+        width: 80%;
+        left: 10%;
+        font-size: .8rem;
+        margin-top: 5px;
+
+    }
     .publicitate h1{
-        color: rgb(255, 255, 255);
-        background-color: #029aff85;
-        font-size: 1.3rem;
-        border-radius: 16px 16px 0 0;
-        width:100%;
-        margin: 0;
+        width: 90%;
+        margin-left: 5%;
     }
-    .publicitate p {
-        font-size: 1rem;
-    }
+
 }

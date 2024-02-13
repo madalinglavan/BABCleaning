@@ -3,6 +3,9 @@
 
 
 <head>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/f26a888174.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
@@ -28,7 +31,7 @@
     
     <div class="main" id="acasa">
         <div class="mesaj-intampintare">
-            <p>Bonjour chez BAB Cleaning! </p>
+            <p>Bienvenue chez nous! </p>
             <img src="img/cleaner.png" alt="">
             
             <script>
@@ -63,25 +66,75 @@
             </video>
             <img src="img/tools.png" alt="">
         </div>
-        <div class="categorie-curatenie">
+        <h2>Nos services</h2>
+        <div class="categorie-curatenie" id="servicii">
+            
             <div class="curatenie-de-birouri">
                 <div class="intretinere-birouri">
-                    <h2>Nettoyage périodique pour bureaux</h2>
+                    <h2>Nettoyage périodique des bureaux</h2>
                     <img src="img/office.png" alt="">
                     <p>Assurez-vous de maintenir un environnement de travail propre et organisé dans vos bureaux avec notre service de nettoyage périodique d'entretien.</p>
-                    <button class="citeste-mai-mult">Citeste mai mult</button>
+                    <button class="citeste-mai-mult">Galerie photo</button>
                     <div class="text-ascuns" style="display: none;">
-                        <p> Grâce à un programme régulier d'interventions de nettoyage, nous garantissons que votre espace de travail est toujours accueillant pour vos employés et vos clients. Nos services incluent l'aspiration, le dépoussiérage, le nettoyage des surfaces et du mobilier, ainsi que la vidange des corbeilles à papier.</p>
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                <div class="before-after-slide">
+                                  <img src="img/construction.png" alt="Înainte de curățenie">
+                                  <img src="img/construction.png" alt="După curățenie">
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="before-after-slide">
+                                  <img src="img/office.png" alt="Înainte de curățenie">
+                                  <img src="img/office.png" alt="După curățenie">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
                     </div>
+                        <script>
+                                document.addEventListener('DOMContentLoaded', function() {
+                                var swiper = new Swiper('.swiper-container', {
+                                    navigation: {
+                                    nextEl: '.swiper-button-next',
+                                    prevEl: '.swiper-button-prev',
+                                    },
+                                    slidesPerView: 1,
+                                    spaceBetween: 30,
+                                    loop: true,
+                                });
+                                });
+
+                        </script>
                 </div>
                 
                 <div class="curatenie-generala">
                     <h2>Nettoyage en profondeur</h2>
                     <img src="img/curatenie generala.png" alt="">
                     <p>Obtenez un niveau supérieur d'hygiène et de propreté avec notre service de nettoyage en profondeur. </p>
-                    <button class="citeste-mai-mult">Citeste mai mult</button>
+                    <button class="citeste-mai-mult">Galerie photo</button>
                     <div class="text-ascuns" style="display: none;">
-                        <p>Cette approche se concentre sur l'élimination de toutes les traces de saleté et de germes, y compris ceux cachés ou difficiles d'accès. Nos services prioritaires incluent le lavage et la désinfection de toutes les surfaces, le nettoyage des vitres et des objets délicats, ainsi que l'hygiénisation et la désodorisation des espaces.</p>
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                <div class="before-after-slide">
+                                  <img src="img/construction.png" alt="Înainte de curățenie">
+                                  <img src="img/construction.png" alt="După curățenie">
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="before-after-slide">
+                                  <img src="img/office.png" alt="Înainte de curățenie">
+                                  <img src="img/office.png" alt="După curățenie">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>    
                     </div>
                 </div>
             </div>
@@ -90,18 +143,52 @@
                     <h2>Entretien de chantiers de construction</h2>
                     <img src="img/construction.png" alt="">
                     <p>Assurez-vous de maintenir un environnement sûr et propre sur vos chantiers de construction avec notre service d'entretien spécialisé.</p>
-                    <button class="citeste-mai-mult">Citeste mai mult</button>
+                    <button class="citeste-mai-mult">Galerie photo</button>
                     <div class="text-ascuns" style="display: none;">
-                        <p> Notre équipe gère efficacement l'élimination des déchets de construction, ainsi que le nettoyage et l'hygiénisation des espaces communs, y compris les zones de repas et de repos pour les ouvriers.</p>
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                <div class="before-after-slide">
+                                  <img src="img/construction.png" alt="Înainte de curățenie">
+                                  <img src="img/construction.png" alt="După curățenie">
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="before-after-slide">
+                                  <img src="img/office.png" alt="Înainte de curățenie">
+                                  <img src="img/office.png" alt="După curățenie">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>    
                     </div>
                 </div>
                 <div class="curatenia-finala">
                     <h2>Nettoyage final du chantier</h2>
                     <img src="img/santier.png" alt="">
                     <p>Confiez-nous la dernière étape du nettoyage de votre projet de construction. L'expérience de nos équipes peut apporter de l'éclat à vos projets</p>
-                    <button class="citeste-mai-mult">Citeste mai mult</button>
+                    <button class="citeste-mai-mult">Galerie photo</button>
                     <div class="text-ascuns" style="display: none;">
-                        <p> Notre équipe se chargera de l'élimination de tous les résidus et déchets de construction, ainsi que de la préparation de l'espace pour la remise finale. Nos services comprennent le nettoyage et la désinfection des surfaces, le lavage des vitres et l'élimination de toute trace de travail non désirée.</p>
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                <div class="before-after-slide">
+                                  <img src="img/construction.png" alt="Înainte de curățenie">
+                                  <img src="img/construction.png" alt="După curățenie">
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="before-after-slide">
+                                  <img src="img/office.png" alt="Înainte de curățenie">
+                                  <img src="img/office.png" alt="După curățenie">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -117,16 +204,22 @@
             
                             if (textAscuns.style.display === 'none' || textAscuns.style.display === '') {
                                 textAscuns.style.display = 'block';
-                                this.textContent = 'Ascunde';
+                                this.textContent = 'Fermer';
                             } else {
                                 textAscuns.style.display = 'none';
-                                this.textContent = 'Citeste mai mult';
+                                this.textContent = 'Galerie photo';
                             }
                         });
                     });
                 });
             </script>
         </div>    
+    </div>
+
+    <div class="despre-noi" id="despre-noi">
+        .a propos.
+        poza cu echipa
+        text costina 
     </div>
     
    
