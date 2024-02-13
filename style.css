@@ -435,7 +435,7 @@ nav ul li a p:hover{
   
   .swiper-slide img {
     width: 100%; 
-    height: 50vh;
+    height: 40vh;
     object-fit: fill;
   }
   
