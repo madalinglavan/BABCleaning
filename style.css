@@ -37,20 +37,18 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 165px;
+    width: 30%;
     height: 65px;
     margin-top: 10px;
+    margin-left: 10px;
     padding: 3px;
-    background-color: rgb(0, 204, 255);
-    border-radius: 16px;
-    box-shadow: 2px 7px 5px rgb(255, 255, 255);
-    border-radius: 15px 0 15px 0;
+    background-image: url(img/logo-model-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
 }
-.logo-babcleaning a h1{
-    font-size: 2rem;
-    color: rgb(255, 255, 255);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+
 .logo-babcleaning a{
     color: rgb(255, 255, 255);
     text-decoration: none;
