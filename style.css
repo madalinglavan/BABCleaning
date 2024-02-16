@@ -163,6 +163,36 @@ nav ul li a p:hover{
     height: 20px;
     background-color: #333;
 }
+.company-info,
+.cleaning-categories,
+.active-clients{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.company-info a{
+    font-size: 1.5rem;
+    text-transform:uppercase;
+    color:#333
+}
+
+.madalinglavan{
+    position: relative;
+    text-align:center;
+    width: 100%;
+    text-decoration: none;
+}
+.madalinglavan img{
+    width: 40px;
+    height: 40px;
+}
+.madalinglavan  p{
+    color: rgb(0, 0, 0);
+}
+.footer h3{
+    color:#333;
+}
 
 .main{
     position: relative;
@@ -568,6 +598,19 @@ nav ul li a p:hover{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 768px) {
 
     .logo-babcleaning{
@@ -685,7 +728,7 @@ nav ul li a p:hover{
         grid-template-columns: 2fr;
     }
     .slogan{
-        font-size: .6rem;
+        font-size: .5rem;
     }
     
 }
@@ -748,7 +791,7 @@ nav ul li a p:hover{
         margin-left: 5%;
     }
     .slogan{
-        font-size: .8rem;
+        font-size: .7rem;
     }
 
 }
